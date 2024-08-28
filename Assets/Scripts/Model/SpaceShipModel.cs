@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpaceShipModel 
 {
-    [SerializeField]  float speed;
-    [SerializeField]  float health;
-    [SerializeField] Vector3 position;
+    [SerializeField]  float _speed;
+    [SerializeField] Health  _health;
+    [SerializeField] Vector3 _position;
 
 }
