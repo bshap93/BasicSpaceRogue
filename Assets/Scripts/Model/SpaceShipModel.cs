@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpaceShipModel 
+namespace Model
 {
-    [SerializeField]  float _speed;
-    [SerializeField] Health  _health;
-    [SerializeField] Vector3 _position;
+    public class SpaceShipModel
+    {
+        [SerializeField]  Speed _speed;
+        [SerializeField] Health  _health;
+        [SerializeField] Vector3 _position;
 
+    }
 }

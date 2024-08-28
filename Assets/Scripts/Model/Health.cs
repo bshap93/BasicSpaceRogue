@@ -21,6 +21,13 @@ public class Health
         CurrentHealth = Mathf.Clamp(CurrentHealth, MinHealth, MaxHealth);
         UpdateHealth();
     }
+    
+    public void Decrement(int amount)
+    {
+        CurrentHealth -= amount;
+        CurrentHealth = Mathf.Clamp(CurrentHealth, MinHealth, MaxHealth);
+        UpdateHealth();
+    }
 
     public void Restore()
     {
